@@ -7,17 +7,17 @@ Build two small demo applications, one running on a Raspberry Pi Zero with attac
 ## Requirements
 
 ### Application 1
-	- Build using language and library of your choice, but will be tested on a Raspberry Pi Zero with attached PN532 NFC breakout board (working test hardware running libnfc with uart driver available)
-	- Runs continuously as a service/daemon
-	- Alternately sends and receives messages
-	- Content of received messages is written to standard output
+* Build using language and library of your choice, but will be tested on a Raspberry Pi Zero with attached PN532 NFC breakout board (working test hardware running libnfc with uart driver available)
+* Runs continuously as a service/daemon
+* Alternately sends and receives messages
+* Content of received messages is written to standard output
 
 ### Application 2
-	- Android native app built using either Java or Mono/.NET MAUI (preferred)
-	- Compatible with Android 8
-	- Minimum user interface consisting of two buttons and text box
-	- Send button sends message that is received by Application 1
-	- Receive button reads message sent by Application 1 and displays content in text box
+* Android native app built using either Java or Mono/.NET MAUI (preferred)
+* Compatible with Android 8
+* Minimum user interface consisting of two buttons and text box
+* Send button sends message that is received by Application 1
+* Receive button reads message sent by Application 1 and displays content in text box
 
 ## Story
 
