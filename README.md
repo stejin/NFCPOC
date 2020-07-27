@@ -26,6 +26,6 @@ When I approach the NFC shield attached to the Raspberry Pi with my Android phon
 <img src="assets/Receive.png">
 
 
-While still in proximity of the NFC shield, pressing the "Send" button of the Android app triggers a message to be sent to the Raspberry Pi which is then printed to standard output of the Raspberry Pi.
+While still in proximity of the NFC shield, pressing the "Send" button of the Android app triggers a message to be sent to the Raspberry Pi which is then printed to the standard output of the Raspberry Pi.
 
 <img src="assets/Send.png">
