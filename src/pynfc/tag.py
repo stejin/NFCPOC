@@ -40,7 +40,10 @@ def on_connect(tag):
     #tag.add_service(0x000B, ndef_write, lambda: False)
     return True
 
-with nfc.ContactlessFrontend('tty:S1') as clf:
+#device = 'tty:S1'
+device = 'tty:AMA0'
+
+with nfc.ContactlessFrontend(device) as clf:
     while clf.connect(card={'on-startup': on_startup, 'on-connect': on_connect}):
         time.sleep(3)
         print("tag released")
